@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_image": "https://images.pexels.com/photos/12793344/pexels-photo-12793344.jpeg",
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "A classic Italian pasta dish with rich and savory meat sauce.",
+      "ingredients": ["500 g spaghetti", "400 g  ced beef", "200 g tomato puree", "100 g parmesan cheese", "2 cloves garlic", "50 g basil leaves"],
+      "preparing_time": "40",
+      "calories": "550"
+    },
+    {
+      "recipe_image": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg",
+      "recipe_id": 2,
+      "recipe_name": "Chicken Caesar Salad",
+      "short_description": "A fresh salad with grilled chicken, croutons, and creamy dressing.",
+      "ingredients": ["250 g chicken breast", "200 g romaine lettuce", "50 g croutons", "30 g parmesan cheese", "50 ml Caesar dressing"],
+      "preparing_time": 25,
+      "calories": 350
+    },
+    {
+      "recipe_image": "https://images.pexels.com/photos/1233336/pexels-photo-1233336.jpeg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "A vibrant mix of sautéed vegetables with a savory sauce.",
+      "ingredients": ["200 g broccoli", "150 g carrots", "100 g bell peppers", "50 ml soy sauce", "30 ml sesame oil", "10 g ginger"],
+      "preparing_time": 20,
+      "calories": 200
+    },
+    {
+      "recipe_image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+      "recipe_id": 4,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Perfectly grilled salmon with a hint of lemon and herbs.",
+      "ingredients": ["300 g salmon fillet", "20 ml olive oil", "1 lemon", "10 g dill", "Salt and pepper to taste"],
+      "preparing_time": 30,
+      "calories":400
+    },
+    {
+      "recipe_image": "https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg",
+      "recipe_id": 5,
+      "recipe_name": "Classic Pancakes",
+      "short_description": "Fluffy pancakes served with syrup and fresh fruits.",
+      "ingredients": ["200 g all-purpose flour", "250 ml milk", "2 eggs", "50 g sugar", "10 g baking powder", "Butter for cooking"],
+      "preparing_time": 20,
+      "calories": 300
+    },
+    {
+      "recipe_image": "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg",
+      "recipe_id": 6,
+      "recipe_name": "Margherita Pizza",
+      "short_description": "A simple and delicious pizza with fresh tomatoes, mozzarella, and basil.",
+      "ingredients": ["300 g pizza dough", "200 g mozzarella cheese", "150 g tomato sauce", "50 g fresh basil leaves", "20 ml olive oil"],
+      "preparing_time": 45,
+      "calories": 600
+    }
+  ]
+  
