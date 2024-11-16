@@ -1,11 +1,23 @@
 
+import { useState } from "react";
 import Recipes from "./Recipes";
+import WantToCook from "./WantToCook";
 let OurRecipes=()=>{
+  
+  // now we will hold the data
+  let [data,setData]=useState([])
+
+  let wantToCookfun=(output)=>{
+    let newObject = {output}
+    let newdata=[...data,newObject]
+    setData(newdata)
+  }
+  // console.log(data)
 
     return(
         <div>
 
-        {/* staring div */}
+       
 
 
 
@@ -21,64 +33,18 @@ let OurRecipes=()=>{
  
 
 
-            <div className="flex">
+            <div className="flex justify-center">
 
 
 
+
+<Recipes wantToCookfun={wantToCookfun}></Recipes>
 
        {/* staring of card here  */}
-
-
-
-
-
-       <div className="">
-
-
-
-    <Recipes></Recipes>
-
-
-
-
-        </div>
-
+    
 
         {/* starting of want to cook */}
-
-<div className="mt-0  ">
-
-
-<div className="card bg-base-100 w-96 shadow-xl">
-  
-  <div className="card-body ">
-    <h2 className="card-title">Want to Cook :01</h2>
-    <hr />
-
-    <div >
-        <ul className="flex gap-5">
-            <li>Name</li>
-            <li>Time</li>
-            <li>Calories</li>
-        </ul>
-
-        
-    </div>
-  
-
-
-    <div className="card-actions">
-      <button className="btn bg-[#0BE58A]">Preparing</button>
-    </div>
-
-
-  </div>
-</div>
-
-
-
-</div>
-
+          <WantToCook cookData={data}></WantToCook>
 
 
 

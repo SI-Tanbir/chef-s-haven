@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
-import fooddata from '../../public/foodData.json'
+import fooddata from '../assets/foodData.json'
 import { CiClock2 } from "react-icons/ci";
 import { HiFire } from "react-icons/hi";
 
 
 
-let Recipes=()=>{
+let Recipes=({wantToCookfun})=>{
 
     let [count,setCount]=useState([]);
 
@@ -13,12 +13,12 @@ let Recipes=()=>{
         setCount(fooddata);
     },[])
 
-console.log(count)
+// console.log(count)
 
 
     return(
 
-        <div>
+        <div className="grid grid-cols-2">
           
 
         {
@@ -28,10 +28,10 @@ console.log(count)
               
 
               // starting of recepies card
-              <div key={index} className="card bg-base-100 w-96 shadow-xl">
+              <div key={index} className="mb-3 card bg-base-100 w-96 shadow-xl">
 
     
-  <figure className="px-10 pt-10">
+  <figure className="px-10 pt-10 ">
     <img
       src={output.recipe_image}
       alt="Shoes"
@@ -67,8 +67,9 @@ console.log(count)
  </div>
 
     <div className="card-actions">
-      <button className="btn bg-[#0BE58A]">Want to Cook</button>
+      <button onClick={()=>wantToCookfun(output)} className="btn bg-[#0BE58A]">Want to Cook</button>
     </div>
+
   </div>
 </div>
                 
